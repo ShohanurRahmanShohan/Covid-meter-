@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>করোনা পরিস্থিতি</title>
+  </head>
+  <body>
+   <div class="card" style="width: 18rem; margin:auto ;">
+  <div class="card-body">
+    <h5 class="card-title">বাংলাদেশের করোনা পরিস্থিতি</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">এখন পর্যন্ত আক্রান্ত হয়েছে : {{ cdn }}</li>
+    <li class="list-group-item">আক্রান্ত হবার পর সুস্থ হয়েছে : {{ cdr }}</li>
+    <li class="list-group-item">মারা গিয়েছেন : {{ cdb }}</li>
+  </ul>
+  </div>
+      <div class="card" style="width: 18rem; margin:auto ; margin-top:30px;">
+  <div class="card-body">
+    <h5 class="card-title"> বিশ্বের করোনা পরিস্থিতি</h5>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">এখন পর্যন্ত আক্রান্ত হয়েছে : {{ cwn }}</li>
+    <li class="list-group-item">আক্রান্ত হবার পর সুস্থ হয়েছে : {{ cwr }}</li>
+    <li class="list-group-item">মারা গিয়েছেন : {{ cwd }} </li>
+  </ul>
+  </div>
+</div>
+  </body>
+<nav>
+ <h5 style="background-color:black;color:white; text-align: center;width: 18rem;margin:auto;margin-top:20px; "> Made with ♥ by <a href="https://www.facebook.com/AmiShohantj"> Shohanur Rahman</a></h5>
+</nav>
+</html>
